@@ -1,17 +1,8 @@
-# Frontend Documentation 
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Setting up the development environment 
+Currently, two official plugins are available:
 
-
-1. Download expo on your mobile device (app store or google play)
-
-2. run the following in your terminal from within ``HACKCUNY-ASL/frontend`` directory: 
-    ```
-    npm install
-    ```
-    ```
-    npx expo
-    ```
-    
-    Scan the QR code from your mobile device then follow the instructions
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
