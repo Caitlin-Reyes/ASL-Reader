@@ -8,7 +8,8 @@ import numpy as np
 import time
 import pandas as pd
 
-model = load_model('smnist.h5')
+#model = load_model('smnist.h5')
+model = load_model('Sign_Language_MNIST.h5')
 
 mphands = mp.solutions.hands
 hands = mphands.Hands()
